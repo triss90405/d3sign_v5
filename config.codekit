@@ -66,6 +66,38 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/1-tools\/_vars.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/1-tools\/_vars.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_vars.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/2-modules\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/2-modules\/_buttons.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/2-modules\/_navigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -98,15 +130,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/assets\/css\/3-pages\/_generel.scss": {
+	"\/assets\/css\/3-pages\/_general.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_generel.scss",
-		"outputAbbreviatedPath": "\/assets\/css\/css\/_generel.css",
+		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_general.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_general.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -195,6 +227,17 @@
 		"initialSize": 91,
 		"inputAbbreviatedPath": "\/assets\/img\/overlay.png",
 		"outputAbbreviatedPath": "\/assets\/img\/overlay.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/walking.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87538,
+		"inputAbbreviatedPath": "\/assets\/img\/walking.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/walking.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

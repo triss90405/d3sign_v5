@@ -1,0 +1,15 @@
+.btn1 {
+  background: $main1;
+  border-radius: 5px;
+  padding: 10px 25px;
+  color: white;
+  border: none;
+  font-size: 3rem;
+  @include transition(.18s);
+  &:hover {
+    background: darken($main1, 10%);
+  }
+  &:active {
+    background: lighten($main1, 5%);
+  }
+}
