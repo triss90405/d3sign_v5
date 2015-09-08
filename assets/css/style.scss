@@ -1,0 +1,11 @@
+//Tools - Often thrid party stuff or global variables
+@import '1-tools/normalize';
+@import '1-tools/sceletus';
+@import '1-tools/colors';
+@import '1-tools/mixins';
+
+//Modules - CSS used throughout the project or app, e.g. a navigation
+@import '2-modules/navigation';
+
+//Pages - Styles specific to the different pages
+@import '3-pages/frontpage';
