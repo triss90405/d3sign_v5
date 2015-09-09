@@ -1,6 +1,6 @@
-<?php include("parts/header.php"); ?>
+<?php include("parts/header.html"); ?>
 
-<?php include("parts/section_header.php"); ?>
-<?php include("parts/section_services.php"); ?>
+<?php include("parts/section_header.html"); ?>
+<?php include("parts/section_services.html"); ?>
 
-<?php include("parts/footer.php"); ?>
+<?php include("parts/footer.html"); ?>
