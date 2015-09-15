@@ -4,7 +4,7 @@ $main2: #00A7FF;
 $main3: #62CA4E;
 $black: #373E42;
 
-//Transition Mixin
+// Transition Mixin
 @mixin transition ($duration) {
 	-webkit-transition: all $duration ease-in-out;
 	-moz-transition: all $duration ease-in-out;

@@ -1402,3 +1402,12 @@ section.services {
     -webkit-transform: translate(2px, 2px) rotate(0deg); }
   100% {
     -webkit-transform: translate(1px, -2px) rotate(-1deg); } }
+section.work {
+  background: #373E42;
+  padding: 35px 0 35px 0; }
+  section.work img {
+    width: 100%;
+    padding: 15px; }
+  section.work .lead {
+    color: white;
+    text-align: center; }

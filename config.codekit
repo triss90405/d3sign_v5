@@ -178,6 +178,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/3-pages\/_section-work.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_section-work.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_section-work.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -269,6 +285,61 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/annette_petersen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 172140,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/annette_petersen.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/annette_petersen.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/d3sign_v4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13145,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/d3sign_v4.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/d3sign_v4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/packshotcph.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152640,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/packshotcph.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/packshotcph.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/sceletus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11508,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/sceletus.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/sceletus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/web_assets.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8316,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/web_assets.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/web_assets.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/functions.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -321,6 +392,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/section_services.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/parts\/section_work.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/parts\/section_work.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
