@@ -8,4 +8,11 @@ $( document ).ready(function() {
       });
    });
 
+   // Wiggly Services icons
+   setInterval(function(){
+      var random = Math.floor(Math.random()*4);
+      $(".service-icon").removeClass("wiggle");
+      $(".service-icon").eq(random).addClass("wiggle");
+   }, 2000);
+
 });
