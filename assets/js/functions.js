@@ -19,9 +19,13 @@ $( document ).ready(function() {
    $(window).scroll(function() {
       var scroll = $(window).scrollTop();
       if(scroll > 750) {
-         $("section.work .item").addClass("item-fade-in");
+         $("section.work .item").each(function(i){
+            var $item = $(this);
+            setTimeout(function(){
+               $item.addClass("item-fade-in");
+            }, i*200);
+         });
       }
    });
-
 
 });
