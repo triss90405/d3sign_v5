@@ -1407,10 +1407,21 @@ section.services {
 section.work {
   background: #373E42;
   padding: 35px 0 35px 0;
-  text-align: center; }
-  section.work img {
-    max-width: 100%;
-    padding: 15px; }
+  text-align: center;
+  overflow: hidden; }
+  section.work .item {
+    position: relative;
+    left: -1200px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    section.work .item img {
+      max-width: 100%;
+      padding: 15px; }
+    section.work .item.item-fade-in {
+      left: 0px; }
   section.work .lead {
     color: white;
     text-align: center; }

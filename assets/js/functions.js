@@ -15,4 +15,15 @@ $( document ).ready(function() {
       $(".service-icon").eq(random).addClass("wiggle");
    }, 3000);
 
+   // Fade in work items
+   $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      // if scroll =
+      if(scroll > 750) {
+         $("section.work .item").addClass("item-fade-in");
+      }
+      //console.log(scroll);
+   });
+
+
 });

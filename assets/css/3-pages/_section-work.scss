@@ -2,9 +2,18 @@ section.work {
    background: $black;
    padding: 35px 0 35px 0;
    text-align: center;
-   img {
-      max-width: 100%;
-      padding: 15px;
+   overflow: hidden;
+   .item {
+      position: relative;
+      left: -1200px;
+      @include transition(.3s);
+      img {
+         max-width: 100%;
+         padding: 15px;
+      }
+      &.item-fade-in {
+         left: 0px;
+      }
    }
    .lead {
       color: white;
