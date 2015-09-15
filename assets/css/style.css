@@ -1332,10 +1332,18 @@ section.header {
     section.header .video-content h1 {
       color: white;
       font-size: 6rem; }
+      @media (max-width: 768px) {
+        section.header .video-content h1 {
+          font-size: 4rem;
+          margin-top: 25px; } }
     section.header .video-content h2 {
       color: white;
       font-size: 4.5rem;
       margin-bottom: 50px; }
+      @media (max-width: 768px) {
+        section.header .video-content h2 {
+          font-size: 3rem;
+          margin-bottom: 25px; } }
   section.header .social-buttons {
     margin: 50px 0px; }
     section.header .social-buttons i {
@@ -1349,3 +1357,19 @@ section.header {
       transition: all 0.15s ease-in-out; }
       section.header .social-buttons i:hover {
         color: #00A7FF; }
+      @media (max-width: 768px) {
+        section.header .social-buttons i {
+          font-size: 3rem; } }
+
+section.services {
+  padding: 50px 0px;
+  background-color: #00A7FF;
+  background-image: url("/assets/img/bright-squares-2.png");
+  background-repeat: repeat-x repeat-y;
+  text-align: center; }
+  section.services p.service-text {
+    color: white;
+    padding: 0px 50px 50px 50px;
+    font-size: 2rem; }
+  section.services img.service-icon {
+    height: 75px; }

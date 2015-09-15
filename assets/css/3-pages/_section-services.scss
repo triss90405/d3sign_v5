@@ -1,0 +1,15 @@
+section.services {
+   padding: 50px 0px;
+   background-color: $main2;
+   background-image: url("/assets/img/bright-squares-2.png");
+   background-repeat: repeat-x repeat-y;
+   text-align: center;
+   p.service-text {
+      color: white;
+      padding: 0px 50px 50px 50px;
+      font-size: 2rem;
+   }
+   img.service-icon {
+      height: 75px;
+   }
+}
