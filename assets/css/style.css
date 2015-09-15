@@ -383,10 +383,10 @@ Author URI:     http://sceletus.net
 @media (min-width: 768px) {
   .container {
     width: 750px; } }
-@media (min-width: calc(992px - 135px)) {
+@media (min-width: 992px) {
   .container {
     width: calc(970px - 135px); } }
-@media (min-width: calc(1200px - 135px)) {
+@media (min-width: 1200px) {
   .container {
     width: calc(1170px - 135px); } }
 .col-xs-1, .col-s-1, .col-m-1, .col-l-1,
