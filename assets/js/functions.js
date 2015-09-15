@@ -18,11 +18,9 @@ $( document ).ready(function() {
    // Fade in work items
    $(window).scroll(function() {
       var scroll = $(window).scrollTop();
-      // if scroll =
       if(scroll > 750) {
          $("section.work .item").addClass("item-fade-in");
       }
-      //console.log(scroll);
    });
 
 
