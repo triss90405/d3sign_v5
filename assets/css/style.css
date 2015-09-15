@@ -1244,10 +1244,9 @@ Breakpoints
   top: 0;
   bottom: 0;
   left: 0;
-  z-index: 3;
+  z-index: 4;
   cursor: pointer;
   display: none;
-  background: lightblue;
   height: 60px; }
   @media (max-width: 992px) {
     .mobile-nav-toggle {
@@ -1255,15 +1254,19 @@ Breakpoints
 
 .mobile-nav {
   position: absolute;
-  top: 60px;
+  top: 0;
   bottom: 0;
   left: 0;
   z-index: 3;
+  background: white;
+  width: 0;
   display: none;
-  background: pink; }
+  visibility: hidden; }
 
 .mobile-nav-show {
-  display: block; }
+  display: block;
+  visibility: visible;
+  width: 100%; }
 
 .btn1 {
   background: #E84C6F;
