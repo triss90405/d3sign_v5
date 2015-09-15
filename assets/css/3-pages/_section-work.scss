@@ -1,8 +1,9 @@
 section.work {
    background: $black;
    padding: 35px 0 35px 0;
+   text-align: center;
    img {
-      width: 100%;
+      max-width: 100%;
       padding: 15px;
    }
    .lead {
