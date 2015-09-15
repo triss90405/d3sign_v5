@@ -1367,6 +1367,8 @@ section.services {
   background-image: url("/assets/img/bright-squares-2.png");
   background-repeat: repeat-x repeat-y;
   text-align: center; }
+  section.services .lead {
+    color: white; }
   section.services p.service-text {
     color: white;
     padding: 0px 50px 50px 50px;
