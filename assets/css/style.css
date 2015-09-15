@@ -1296,7 +1296,9 @@ Breakpoints
 section.header {
   height: 500px;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  background: url("/assets/img/walking.jpg") no-repeat;
+  background-size: cover; }
   section.header video#bgvid {
     display: block;
     width: auto;
@@ -1305,10 +1307,9 @@ section.header {
     min-height: 100%;
     right: 0;
     bottom: 0;
-    z-index: -100;
-    background: url("../assets/img/walking.jpg") no-repeat; }
+    z-index: -100; }
   section.header .video-overlay {
-    background-image: url("../assets/img/overlay.png");
+    background-image: url("/assets/img/overlay.png");
     position: absolute;
     opacity: 0.8;
     left: 0;
