@@ -1320,7 +1320,6 @@ Breakpoints
 
 .wrapper {
   background: #efefef;
-  height: 3000px;
   margin: 0 0 0 135px; }
   @media (max-width: 992px) {
     .wrapper {
@@ -1465,11 +1464,21 @@ section.clients {
   background: pink; }
 
 section.contact a {
-  background: #e24040;
+  background: #E84C6F;
   color: white;
   display: block;
   width: 100%;
   text-align: center;
   font-size: 6rem;
   text-decoration: none;
-  line-height: 6; }
+  line-height: 6;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  @media (max-width: 768px) {
+    section.contact a {
+      font-size: 3.5rem; } }
+  section.contact a:hover {
+    background: #e21f4b; }

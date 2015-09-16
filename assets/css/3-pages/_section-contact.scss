@@ -1,6 +1,6 @@
 section.contact {
    a {
-      background: #e24040;
+      background: $main1;
       color: white;
       display: block;
       width: 100%;
@@ -8,5 +8,12 @@ section.contact {
       font-size: 6rem;
       text-decoration: none;
       line-height: 6;
+      @media (max-width: 768px) {
+         font-size: 3.5rem;
+      }
+      @include transition(0.3s);
+      &:hover {
+         background: darken($main1, 10%);
+      }
    }
 }
