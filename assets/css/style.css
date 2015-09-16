@@ -1390,7 +1390,8 @@ section.header {
         color: #00A7FF; }
       @media (max-width: 768px) {
         section.header .social-buttons i {
-          font-size: 3rem; } }
+          font-size: 3rem;
+          margin: 0 10px; } }
 
 section.services {
   padding: 50px 0px;
