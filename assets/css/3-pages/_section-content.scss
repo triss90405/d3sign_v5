@@ -1,4 +1,20 @@
 section.content {
-   background: lightblue;
-   height: 300px;
+   h1 {
+      color: white;
+      text-align: center;
+   }
+   .videos {
+      background-color: $main1;
+      background-image: url("/assets/img/bg-videos.png");
+      background-size: cover;
+      height: 700px;
+      padding: 50px 0;
+   }
+   .articles {
+      background-color: $main2;
+      background-image: url("/assets/img/bg-articles.png");
+      background-size: cover;
+      height: 700px;
+      padding: 50px 0;
+   }
 }

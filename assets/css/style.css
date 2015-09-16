@@ -1459,9 +1459,21 @@ section.work {
     color: white;
     text-align: center; }
 
-section.content {
-  background: lightblue;
-  height: 300px; }
+section.content h1 {
+  color: white;
+  text-align: center; }
+section.content .videos {
+  background-color: #E84C6F;
+  background-image: url("/assets/img/bg-videos.png");
+  background-size: cover;
+  height: 700px;
+  padding: 50px 0; }
+section.content .articles {
+  background-color: #00A7FF;
+  background-image: url("/assets/img/bg-articles.png");
+  background-size: cover;
+  height: 700px;
+  padding: 50px 0; }
 
 section.clients {
   height: 300px;
