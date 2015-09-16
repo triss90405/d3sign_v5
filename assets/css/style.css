@@ -1169,11 +1169,13 @@ Breakpoints
     display: flex;
     flex-direction: column;
     justify-content: space-between; }
-    .navigation .nav-position .logo {
+    .navigation .nav-position .nav-logo {
       font-size: 7rem;
       text-align: center;
       width: 135px;
-      height: 100px; }
+      height: 100px;
+      color: #373E42;
+      text-decoration: none; }
     .navigation .nav-position .nav-items ul {
       list-style-type: none;
       text-align: right;
