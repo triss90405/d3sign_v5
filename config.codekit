@@ -146,6 +146,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/3-pages\/_section-clients.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_section-clients.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_section-clients.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/3-pages\/_section-header.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -296,6 +312,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/arkdesigndk.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45424,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/arkdesigndk.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/arkdesigndk.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/work\/d3sign_v4.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -314,6 +341,17 @@
 		"initialSize": 152640,
 		"inputAbbreviatedPath": "\/assets\/img\/work\/packshotcph.png",
 		"outputAbbreviatedPath": "\/assets\/img\/work\/packshotcph.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/ryghseter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98837,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/ryghseter.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/ryghseter.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -374,6 +412,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/parts\/header.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/parts\/section_clients.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/parts\/section_clients.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
