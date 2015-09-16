@@ -311,6 +311,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/clients\/heidi.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28607,
+		"inputAbbreviatedPath": "\/assets\/img\/clients\/heidi.png",
+		"outputAbbreviatedPath": "\/assets\/img\/clients\/heidi.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/clients\/henriette.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23796,
+		"inputAbbreviatedPath": "\/assets\/img\/clients\/henriette.png",
+		"outputAbbreviatedPath": "\/assets\/img\/clients\/henriette.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/clients\/kurt.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18296,
+		"inputAbbreviatedPath": "\/assets\/img\/clients\/kurt.png",
+		"outputAbbreviatedPath": "\/assets\/img\/clients\/kurt.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/overlay.png": {
 		"fileType": 32768,
 		"ignore": 0,

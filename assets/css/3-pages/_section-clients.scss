@@ -1,4 +1,34 @@
 section.clients {
-   height: 300px;
-   background: pink;
+   padding: 50px;
+   h1 {
+      text-align: center;
+      line-height: 1;
+      margin: 0 0 50px 0;
+   }
+   .client {
+      width: 100%;
+      img {
+         border: 3px solid $black;
+         border-radius: 50%;
+         width: 175px;
+      }
+      p {
+         display: block;
+         background-color: white;
+         background-image: url("/assets/img/bg-quote.svg");
+         background-repeat: no-repeat;
+         background-size: 35%;
+         background-position: 50px center;
+         color: $black;
+         font-size: 3rem;
+         max-width: 100%;
+         padding: 50px;
+         border-radius: 100px;
+         .name {
+            display: block;
+            color: lighten($black, 50%);
+            font-style: italic;
+         }
+      }
+   }
 }
