@@ -1463,3 +1463,13 @@ section.work {
 section.clients {
   height: 300px;
   background: pink; }
+
+section.contact a {
+  background: #e24040;
+  color: white;
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 6rem;
+  text-decoration: none;
+  line-height: 6; }
