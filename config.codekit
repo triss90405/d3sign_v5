@@ -367,6 +367,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/tristanwhite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 81975,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/tristanwhite.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/tristanwhite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/work\/web_assets.png": {
 		"fileType": 32768,
 		"ignore": 0,
