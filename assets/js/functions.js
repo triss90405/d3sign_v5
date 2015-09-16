@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
    // Responsive navigation
-   $(".mobile-nav-toggle").on("click", function() {
+   $(".mobile-nav-bar-toggle").on("click", function() {
       $(".mobile-nav").toggleClass("mobile-nav-show");
       $(".mobile-nav a").on("click", function(){
          $(".mobile-nav").removeClass("mobile-nav-show");
@@ -16,7 +16,7 @@ $( document ).ready(function() {
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
                $('html,body').animate({
-                  scrollTop: target.offset().top
+                  scrollTop: target.offset().top - 60
                }, 1000);
                return false;
             }
