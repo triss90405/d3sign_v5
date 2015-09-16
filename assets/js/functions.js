@@ -15,10 +15,14 @@ $( document ).ready(function() {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
-               $('html,body').animate({
-                  scrollTop: target.offset().top - 60
-               }, 1000);
-               return false;
+               if ($(window).width() < 768) {
+                  $('html,body').animate({scrollTop: target.offset().top - 60}, 1000);
+                  return false;
+               }
+               else {
+                  $('html,body').animate({scrollTop: target.offset().top}, 1000);
+                  return false;
+               }
             }
          }
       });
