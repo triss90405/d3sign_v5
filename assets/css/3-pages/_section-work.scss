@@ -6,7 +6,10 @@ section.work {
    .item {
       position: relative;
       left: -1200px;
-      @include transition(.3s);
+      @include transition(.1s);
+      &:hover {
+         transform: scale(1.1);
+      }
       img {
          max-width: 100%;
          padding: 15px;
