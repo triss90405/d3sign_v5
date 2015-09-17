@@ -15,7 +15,7 @@ $( document ).ready(function() {
             var target = $(this.hash);
             target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
             if (target.length) {
-               if ($(window).width() < 768) {
+               if ($(window).width() < 992) {
                   $('html,body').animate({scrollTop: target.offset().top - 60}, 1000);
                   return false;
                }
@@ -38,12 +38,12 @@ $( document ).ready(function() {
    // Fade in work items
    $(window).scroll(function() {
       var scroll = $(window).scrollTop();
-      if(scroll > 750) {
+      if(scroll > 700) {
          $("section.work .item").each(function(i){
             var $item = $(this);
             setTimeout(function(){
                $item.addClass("item-fade-in");
-            }, i*200);
+            }, i*100);
          });
       }
    });
