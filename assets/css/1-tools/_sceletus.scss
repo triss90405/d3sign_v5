@@ -291,39 +291,6 @@ table {
 }
 
 
-/***********************************************/
-/******************** LISTS ********************/
-/***********************************************/
-ul {
-    list-style: circle inside none;
-    li {
-        margin-left: 15px; line-height: 30px; font-size: inherit;
-        ul {
-            list-style: circle inside none; margin-bottom: 0px;
-            li {
-                font-size: inherit;
-            }
-        }
-        ol li {
-            font-size: inherit;
-        }
-    }
-}
-ol {
-    list-style: decimal inside none; margin-bottom: 10px;
-    li {
-        margin-left: 15px; line-height: 30px; font-size: inherit;
-        ol {
-            list-style: disc inside none; margin-bottom: 0px;
-            li {
-                font-size: inherit;
-            }
-        }
-        ul li {
-            font-size: inherit;
-        }
-    }
-}
 
 
 /***********************************************/

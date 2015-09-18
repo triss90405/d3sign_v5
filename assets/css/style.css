@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -818,38 +819,6 @@ table {
       color: #FFFFFF; }
 
 /***********************************************/
-/******************** LISTS ********************/
-/***********************************************/
-ul {
-  list-style: circle inside none; }
-  ul li {
-    margin-left: 15px;
-    line-height: 30px;
-    font-size: inherit; }
-    ul li ul {
-      list-style: circle inside none;
-      margin-bottom: 0px; }
-      ul li ul li {
-        font-size: inherit; }
-    ul li ol li {
-      font-size: inherit; }
-
-ol {
-  list-style: decimal inside none;
-  margin-bottom: 10px; }
-  ol li {
-    margin-left: 15px;
-    line-height: 30px;
-    font-size: inherit; }
-    ol li ol {
-      list-style: disc inside none;
-      margin-bottom: 0px; }
-      ol li ol li {
-        font-size: inherit; }
-    ol li ul li {
-      font-size: inherit; }
-
-/***********************************************/
 /******************** MODAL ********************/
 /***********************************************/
 .modal_overlay {
@@ -1308,6 +1277,7 @@ Breakpoints
   color: white;
   border: none;
   font-size: 3rem;
+  text-align: center;
   -webkit-transition: all 0.18s ease-in-out;
   -moz-transition: all 0.18s ease-in-out;
   -ms-transition: all 0.18s ease-in-out;
@@ -1316,6 +1286,46 @@ Breakpoints
   .btn1:hover {
     background: #e21f4b; }
   .btn1:active {
+    background: #eb6381; }
+
+.btn2 {
+  background: #00A7FF;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 40px;
+  display: block;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  -webkit-transition: all 0.18s ease-in-out;
+  -moz-transition: all 0.18s ease-in-out;
+  -ms-transition: all 0.18s ease-in-out;
+  -o-transition: all 0.18s ease-in-out;
+  transition: all 0.18s ease-in-out; }
+  .btn2:hover {
+    background: #0086cc; }
+  .btn2:active {
+    background: #1ab0ff; }
+
+.btn3 {
+  background: #E84C6F;
+  border-radius: 5px;
+  padding: 10px 25px;
+  margin: 40px;
+  display: block;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  text-align: center;
+  -webkit-transition: all 0.18s ease-in-out;
+  -moz-transition: all 0.18s ease-in-out;
+  -ms-transition: all 0.18s ease-in-out;
+  -o-transition: all 0.18s ease-in-out;
+  transition: all 0.18s ease-in-out; }
+  .btn3:hover {
+    background: #e21f4b; }
+  .btn3:active {
     background: #eb6381; }
 
 .wrapper {
@@ -1461,21 +1471,45 @@ section.work {
     color: white;
     text-align: center; }
 
-section.content h1 {
-  color: white;
-  text-align: center; }
-section.content .videos {
-  background-color: #E84C6F;
-  background-image: url("/assets/img/bg-videos.png");
-  background-size: cover;
-  height: 700px;
-  padding: 50px 0; }
-section.content .articles {
-  background-color: #00A7FF;
-  background-image: url("/assets/img/bg-articles.png");
-  background-size: cover;
-  height: 700px;
-  padding: 50px 0; }
+section.content {
+  height: 700px; }
+  section.content h1 {
+    color: white;
+    text-align: center; }
+  section.content .videos {
+    background-color: #E84C6F;
+    background-image: url("/assets/img/bg-videos.png");
+    background-size: cover;
+    padding: 50px 0;
+    height: 100%; }
+    section.content .videos .video-inner {
+      margin: 0 50px; }
+      section.content .videos .video-inner iframe {
+        border: 0;
+        -webkit-box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 3px 3px 30px 0px rgba(0, 0, 0, 0.75); }
+  section.content .articles {
+    background-color: #00A7FF;
+    background-image: url("/assets/img/bg-articles.png");
+    background-size: cover;
+    padding: 50px 0;
+    height: 100%; }
+    section.content .articles .article-inner {
+      display: table;
+      margin: 0 auto; }
+      section.content .articles .article-inner ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px; }
+        section.content .articles .article-inner ul li  {
+          margin-left: 0px;
+          padding: 0px; }
+      section.content .articles .article-inner a.article-link {
+        color: white;
+        font-size: 2rem;
+        line-height: 6rem;
+        text-decoration: none; }
 
 section.clients {
   padding: 50px; }
